@@ -3,6 +3,11 @@ name = "feistel_rs"
 version = "0.1.0"
 authors = ["alexeyan <alexander.druffel@googlemail.com>"]
 edition = "2018"
+description = "Feistel Cipher. More flexible in parameters and keys. Goal is up to single bits and bit slices. Currently on byte granularity."
+license = "GPL3"
+repository = "https://github.com/Alexeyan/Feistel_rs"
+homepage = "https://github.com/Alexeyan/Feistel_rs"
+documentation = "https://github.com/Alexeyan/Feistel_rs/README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -11,6 +16,8 @@ path = "src/feistel.rs"
 
 [dependencies]
 sha3 = "0.8.2"
+
+[dev-dependencies]
 rand = "0.7.3"
 pretty-hex = "0.1.1"
 cipher = "0.1.1"
